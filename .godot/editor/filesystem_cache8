@@ -1,3 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1708092739
+::res://::1708095999
 icon.svg::CompressedTexture2D::453609630854495111::1708092728::1708092741::1::::<><>::
+level_one.tscn::PackedScene::6692944287614454938::1708095760::0::1::::<><>::
+main.gd::GDScript::-1::1708093732::0::1::::<>Node2D<>::
+main.tscn::PackedScene::3648122310123093965::1708095566::0::1::::<><>::res://main.gd
+player.tscn::PackedScene::8959216620579369917::1708095984::0::1::::<><>::
+README.md::TextFile::-1::1708092762::0::1::::<><>::
+::res://Sprites/::1708096061
+Lil Robot Guy.png::CompressedTexture2D::4157227738728420153::1708096236::1708096240::1::::<><>::

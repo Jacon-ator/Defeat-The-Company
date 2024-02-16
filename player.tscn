@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0v58vbeln6v6"]
+
+[ext_resource type="Script" path="res://player.gd" id="1_2obhi"]
+[ext_resource type="Texture2D" uid="uid://b0h160dovt8nt" path="res://Sprites/Lil Robot Guy.png" id="2_xxj2u"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cscpb"]
+size = Vector2(20, 22)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_2obhi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_cscpb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_xxj2u")
+
+[node name="Camera2D" type="Camera2D" parent="."]
